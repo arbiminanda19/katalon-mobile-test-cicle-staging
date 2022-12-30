@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://stagingapi.cicle.app/api/v1'</initValue>
+      <name>baseUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jwt eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYzNDdiOTBlNjk5YmMwNDg3MWE4NTJlZSIsImdvb2dsZUlkIjoiMTA4MjgwMDUwNDMxNTgzMjQzNDE2IiwiZW1haWwiOiJhcmJpbWluYW5kYTEwQGdtYWlsLmNvbSIsImZ1bGxOYW1lIjoiTXVoYW1tYWQgQXJiaSBNaW5hbmRhIiwicGhvdG9VcmwiOiJodHRwczovL3N0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vc3RhZ2luZy1jaWNsZS1hcHAvNjM0N2I5MGU2OTliYzA0ODcxYTg1MmVlLzI2NmFlYjQ1YmNhOTNkNjgwYWYwNzQwYzkyOTAwMzc3L3Rlc3QxLndlYnAiLCJiaW8iOiJ0ZXN0Iiwic3RhdHVzIjoiTXVoYW1tYWQgQXJiaSBNaW5hbmRhX0lRQTE2IiwiZGVmYXVsdENvbXBhbnkiOnsiX2lkIjoiNjNhZDQ3YTI1MzE0YzFiYzdhNGFmZjJlIn0sImNyZWF0ZWRBdCI6IjIwMjItMTAtMTNUMDc6MDY6NTQuMjA4WiIsInVwZGF0ZWRBdCI6IjIwMjItMTItMjlUMDc6NTQ6MTAuNTExWiIsIl9fdiI6MH0sImlhdCI6MTY3MjMwMDY0MiwiZXhwIjoxNjc0ODkyNjQyfQ.gjsSuuqhXg0T2-J4DhKQZHf1jRJjn2i8IWy4fp1z9CY'</initValue>
+      <name>token</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>companyId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>60</initValue>
+      <name>timeout</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
