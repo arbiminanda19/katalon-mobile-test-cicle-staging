@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "0705AA571AE9C8B7C1D6B114CA9DE9D6",
+  "keywordFileContentHash": "2F558F9B522570F6C6ABD5F28A6013BC",
   "keywordClasses": [
     {
       "name": "helper.globalVariableUpdater",
@@ -46,10 +46,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

@@ -6,10 +6,11 @@
       "keywordMethods": [
         {
           "name": "swipeHorizontal",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

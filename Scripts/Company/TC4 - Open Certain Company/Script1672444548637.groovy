@@ -19,4 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.tap(findTestObject('home/btn_certainCompany'), GlobalVariable.timeout)
 
-Mobile.verifyElementVisible(findTestObject('general/btn_add'), GlobalVariable.timeout)
+Mobile.verifyElementVisible(findTestObject('company/container_team'), GlobalVariable.timeout)
+
