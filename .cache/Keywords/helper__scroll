@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "5DC09A46882970E40064FC252D7DD9D0",
+  "keywordClasses": [
+    {
+      "name": "helper.scroll",
+      "keywordMethods": [
+        {
+          "name": "swipeHorizontal",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

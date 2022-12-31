@@ -16,8 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.configuration.RunConfiguration
 
-String dirName = RunConfiguration.getProjectDir()
+Mobile.tap(findTestObject('home/btn_certainCompany'), GlobalVariable.timeout)
 
-Mobile.startApplication(dirName + '/cicle-staging.apk', true)
+Mobile.verifyElementVisible(findTestObject('general/btn_add'), GlobalVariable.timeout)

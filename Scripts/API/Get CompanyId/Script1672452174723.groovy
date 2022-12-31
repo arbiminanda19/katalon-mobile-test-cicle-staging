@@ -16,8 +16,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.configuration.RunConfiguration
+import groovy.json.JsonSlurper as JsonSlurper
 
-String dirName = RunConfiguration.getProjectDir()
+def jsonSlurper = new JsonSlurper()
 
-Mobile.startApplication(dirName + '/cicle-staging.apk', true)
+response = WS.sendRequest(findTestObject('requestAPI/getCompanies'))
+
+WS.verifyResponseStatusCode(response, 200)
+
+def jsonResponse = jsonSlurper.parseText(response.getResponseBodyContent())
+
+GlobalVariable.companyId = jsonResponse.companies[1]._id
+

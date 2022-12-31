@@ -53,7 +53,8 @@
 [35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session acbc9933-fdda-4470-b71a-c3246da93f76 added to master session list
 [35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m8088 ms - 1192[39m
 [35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/acbc9933-fdda-4470-b71a-c3246da93f76[39m
+[[35m[Appium][39m Received SIGTERM - shutting down
+hub/session/acbc9933-fdda-4470-b71a-c3246da93f76[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/acbc9933-fdda-4470-b71a-c3246da93f76 [39m[32m200[39m [90m12 ms - 1146[39m
 [35m[HTTP][39m [90m[39m
@@ -89,9 +90,10 @@
 [35m[HTTP][39m [90m{}[39m
 [35m[W3C (acbc9933)][39m Driver proxy active, passing request on via HTTP proxy
 [35m[WD Proxy][39m Replacing sessionId 44baebc7-bc28-4154-ac53-97ed5ace4387 with acbc9933-fdda-4470-b71a-c3246da93f76
-[35m[HTTP][39m [37m<-- GET /wd/hub/session/acbc9933-fdda-4470-b71a-c3246da93f76/source [39m[32m200[39m [90m326 ms - 7297[39m
-[35m[HTTP][39m [90m[39m
-[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/acbc9933-fdda-4470-b71a-c3246da93f76/screenshot[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/acbc9933-fdda-4470-b71a-c3246da93f76/source [39m[32m200[35m[Appium][39m Received SIGTERM - shutting down
+[39m
+[35m[HTTP][39[35m[Appium][39m Received SIGTERM - shutting down
+cbc9933-fdda-4470-b71a-c3246da93f76/screenshot[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/acbc9933-fdda-4470-b71a-c3246da93f76/screenshot [39m[32m200[39m [90m219 ms - 197582[39m
 [35m[HTTP][39m [90m[39m

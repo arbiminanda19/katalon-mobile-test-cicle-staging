@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS1 - Company</name>
+   <name>TS2 - Open Company</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>d2137e84-a9a8-455a-9a93-a8be8df8f940</testSuiteGuid>
+   <testSuiteGuid>58de3d53-96a6-4761-9a37-28063b57efac</testSuiteGuid>
    <testCaseLink>
       <guid>f5e14b47-14e9-4151-b55d-bdf97d96b785</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -29,7 +29,7 @@
       <guid>e1dfc626-a8e5-493d-9c2f-5a6db6756780</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Company/TC2 - Create Company</testCaseId>
+      <testCaseId>Test Cases/Company/TC4 - Open Certain Company</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -37,20 +37,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Hooks/Hooks - Close Apps</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3e0647ca-ceb6-4a7d-bd99-d592d15a492b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Helper/Get CompanyId</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>45d1cb59-57db-4dd6-9498-6b609a368fa3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Helper/Delete Company</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

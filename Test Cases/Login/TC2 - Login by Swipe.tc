@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC2 - Create Company</name>
+   <name>TC2 - Login by Swipe</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>acb56ef1-2845-482c-9609-f2e11cfb1c81</testCaseGuid>
+   <testCaseGuid>5ec23ed0-b79e-45a9-9c48-bbb205ce4c42</testCaseGuid>
 </TestCaseEntity>

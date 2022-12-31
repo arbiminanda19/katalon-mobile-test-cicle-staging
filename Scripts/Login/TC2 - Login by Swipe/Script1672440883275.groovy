@@ -16,19 +16,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import groovy.json.JsonSlurper as JsonSlurper
 
-def jsonSlurper = new JsonSlurper()
+Mobile.tap(findTestObject('onBoard/btn_yes'), GlobalVariable.timeout)
 
-response = WS.sendRequest(findTestObject('requestAPI/getCompanies'))
+for (int i = 0; i < 4; i++) {
+    CustomKeywords.'helper.scroll.swipeHorizontal'()
+}
 
-WS.verifyResponseStatusCode(response, 200)
+Mobile.tap(findTestObject('onBoard/btn_toSignIn'), GlobalVariable.timeout)
 
-def jsonResponse = jsonSlurper.parseText(response.getResponseBodyContent())
+Mobile.tap(findTestObject('onBoard/btn_signInGoogle'), GlobalVariable.timeout)
 
-print(jsonResponse)
-
-//Integer companyIndex = jsonResponse.companies.
-
-GlobalVariable.companyId = jsonResponse.companies[1]._id
+Mobile.tap(findTestObject('onBoard/btn_account'), GlobalVariable.timeout)
 
